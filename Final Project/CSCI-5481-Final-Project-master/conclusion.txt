@@ -1,0 +1,16 @@
+Text file to hold our Conclusions.
+
+* scripta.py
+  - The sequence that is assembled varies on which node is selected to start at.
+    However, if you rotate the assembled sequence a specific number of times, the
+    score is the same (no matter which node we start at). This tells us that the
+    starting node (in the Eulerian Circuit) is important for assembling the final
+    sequence. It also seems like larger sequences perform better in assembly.
+
+* scriptb.py
+  - As the sequences get longer, the algorithm's average score decreases.
+
+* script2c.py
+  - View Error_Vs_Score.png. As we introduce error, the Eulerian Cicuit performs
+    worse until ~80% error. With small error, the circuit is still able to build
+    a relatively stable sequence that is very close to the actual sequence.

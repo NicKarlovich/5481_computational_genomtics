@@ -1,0 +1,55 @@
+python3 homework1.py -q query.fna -r ref.fna -t taxonomy.txt -c /path/to/burst -o output.txt -V
+
+
+0
+
+
+ --> Assigning taxonomy based on input file taxonomy.txt.
+Using up to AVX-128 with 8 threads.
+Parsed 130727 queries.
+Max query len: 101, avg. divergence: 90.764586 (18.509566 w/o dupes)
+Parsed 5000 references.
+There are 5000 references and hence 312 clumps (+1)
+Average R pack length = 1423.881789
+Searching best paths through 35294 unique queries...
+
+Search Progress: [0.32%]
+Search Progress: [0.64%]
+Search Progress: [4.47%]
+Search Progress: [7.67%]
+Search Progress: [10.22%]
+Search Progress: [13.10%]
+Search Progress: [15.97%]
+Search Progress: [18.85%]
+Search Progress: [21.41%]
+Search Progress: [27.80%]
+Search Progress: [36.10%]
+Search Progress: [37.70%]
+Search Progress: [39.94%]
+Search Progress: [42.49%]
+Search Progress: [44.73%]
+Search Progress: [48.24%]
+Search Progress: [49.84%]
+Search Progress: [53.67%]
+Search Progress: [55.59%]
+Search Progress: [57.83%]
+Search Progress: [65.81%]
+Search Progress: [68.05%]
+Search Progress: [71.57%]
+Search Progress: [75.08%]
+Search Progress: [77.96%]
+Search Progress: [82.75%]
+Search Progress: [84.98%]
+Search Progress: [87.86%]
+Search Progress: [90.42%]
+Search Progress: [92.33%]
+Search Progress: [94.57%]
+Search Progress: [97.12%]
+Search Progress: [99.68%]
+Search Progress: [100.00%]
+Search complete. Consolidating results...
+
+Alignment time: 2.935936 seconds
+
+
+

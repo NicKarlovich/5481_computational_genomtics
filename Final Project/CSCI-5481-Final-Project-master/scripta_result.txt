@@ -1,0 +1,22 @@
+DeBruin and Eulerian Run on the same KMERS 5 times. Tests different start nodes.
+|Sequence Length|	|Score|	|Best Rotated Score|	|Number of Rotations|
+10	74	74	0
+10	74	74	0
+10	74	74	0
+10	53	74	3
+10	53	74	3
+100	97	97	0
+100	97	97	0
+100	97	97	0
+100	97	97	0
+100	97	97	0
+1000	100	100	0
+1000	100	100	0
+1000	100	100	0
+1000	100	100	0
+1000	100	100	0
+10000	65	100	4884
+10000	65	100	4884
+10000	100	100	0
+10000	65	100	4884
+10000	65	100	4865

@@ -1,0 +1,16 @@
+5481_Fall_19_HW1_Questions:
+
+4a: What fraction of the original input query sequences had a match in the database at 97% or above? NOt ethat a few matches fell below 97%.  You can exclude these.  Inspect query.fna, which is in FASTA format, to ensure that you are counting the correct number of input sequences.
+
+The number of lines in query.fna is 261454, and since each query takes up two lines that means that query.fna does 130727 individual queries.
+In the output.txt file, there are 46,011 lines, each line representing a query with a match value above 97%.  Well technically for some reason there are some queries that
+are in the output file even though theier matches are below 97%.  I wasn't sure if there was a specific way you wanted us to remove those values so I just exported the output
+into Excel and then did a filter on that column for values less than 97%.  In doing this I found that 461 of the lines of the output were under 97% so in total there were 
+46,011 - 461 = 45,550 queries that had a match at 97% or above.  Thus 45,550 / 130727 = 0.348436054, thus about ~34.84% of the queried sequences were above the 97% threshold.
+
+4b What is the most common bacterial species in the Query Set? 
+Faecalibacterium_prausnitzii is the most bacterial species with 9,125 occurences (if you're only looking at the >= 97%)
+If you're looking at all the sequences in the output file, then it is still Faecalibacterium_prausnitzii with 9,154 occurences.
+
+4c What is the average percent similarity of the maches? You can exclude < 97%
+The average percent similarity is ~98.478%.
